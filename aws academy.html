@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AWS Academy</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+<style>
+    
+    body {
+        background:url("E:/studying-book.JPG") no-repeat center/cover;
+        
+        font-family: 'Baloo Bhai', cursive;
+        color: rgb(241, 16, 16);
+        margin: 10px;
+        padding: 10px;
+        
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 80px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        float: center;
+        
+        display: block;
+        top:20px;
+        width: 60%;
+        margin: 20px 450px;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        float: center;
+        right: 3px;
+        top: 50px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+        background-color: rgb(23, 214, 232);
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: rgb(51, 28, 231);
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(178, 15, 203);
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: rgb(236, 195, 14);
+        color: black;
+        padding: 4px 130px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+
+    .btn:hover {
+        background-color: rgb(185, 123, 89);
+    }
+    .wel{
+       /* text-align: center;*/
+       margin-left: 510px;
+        font-size: 50px;
+        color: rgb(238, 114, 14);
+        font-style:italic;
+    }
+
+    .container {
+        float:center;
+        position:absolute;
+       /* border: 2px solid rgb(185, 195, 128);*/
+        margin: 20px 430px;
+        padding: 35px;
+        width: 33%;
+        border-radius: 28px;
+        background: rgb(204, 146, 112);
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="E:\download\aws-academy-graduate-aws-academy-cloud-foundations.PNG" alt="img">
+            <div align:center>AWS Academy</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">More</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+          <li>  <button class="btn">Call Us Now</button></li>
+           <li><button class="btn">Email Us Now</button></li>
+        </div>
+    </header>
+    <div class="wel">|!|@ WELCOME @|!|</div>
+    <div class="container">
+        <h1>Join the best Institute of Bhubaneswar now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Adress">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
